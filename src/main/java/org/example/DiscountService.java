@@ -11,7 +11,7 @@ public class DiscountService {
             return amount * 20 / 100;
         }
 
-        if (memberLevel == 1 && amount >= 500000) {
+        if (memberLevel == 1 && amount < 500000) {
             return amount * 10 / 100;
         }
 
